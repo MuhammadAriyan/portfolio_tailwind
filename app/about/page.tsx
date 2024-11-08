@@ -11,7 +11,7 @@ const page = () => {
         <br/><br/>
 I’m passionate about UI/UX design and bringing a bit of an anime vibe into my creations, inspired by one of my favorite films, Your Name. I also enjoy experimenting with new tech, and I’m all about deploying projects and sharing them online, with <span className=' font-bold text-green-500'>Vercel</span> as my go-to platform.
 <br/><br/>
-Besides coding, I'm into exploring the concept of building worlds through visuals and interactions, aiming to create a bit of magic in every project I take on. You could say I live by “Code, Design, and Dream” (…with some sleep in between!).
+Besides coding, I’m into exploring the concept of building worlds through visuals and interactions, aiming to create a bit of magic in every project I take on. You could say I live by “Code, Design, and Dream” (…with some sleep in between!).
 <br/><br/>
 If you’re looking for someone who blends technical skill with an eye for design, let’s connect and create something unique together!</p>
       </div>
