@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+
+# Tailwind Portfolio
+
+This repository contains a Tailwind CSS-based portfolio website created as a project showcase. This is a placeholder portfolio designed to demonstrate UI/UX skills and expertise with **Tailwind CSS**. A more comprehensive original portfolio is in development and will be released soon.
+
+## Features
+
+- **Responsive Layout**: Adapts seamlessly across devices, including mobile, tablet, and desktop.
+- **Clean Design**: Minimalist and professional styling, focusing on simplicity and usability.
+- **Social Links**: Includes links to social media for easy networking and visibility.
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To run the project locally:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   git clone https://github.com/MuhammadAriyan/portfolio_tailwind.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate into the project directory:
 
-## Learn More
+   ```bash
+   cd tailwind-portfolio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Run the development server:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Visit `http://localhost:3000` in your browser to view the portfolio locally.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technology Stack
+
+- **Next.js** - Enables optimized performance and server-side rendering.
+- **Tailwind CSS** - Allows rapid and flexible UI development with a utility-first approach.
+
+## Deployment
+
+This project is deployed on **Vercel** for easy accessibility. The live site is available [here](https://portfolio-tailwind-20myak820-muhammadariyans-projects.vercel.app/) for viewing and feedback.
