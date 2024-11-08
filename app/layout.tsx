@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import {  CodeXml  } from "lucide-react"
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -26,8 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
+        <nav className="flex h-10 items-center  m-2 font-mono font-bold bg-white rounded-sm text-green-500 justify-between">
+        <Link href={'/'}><CodeXml className=' w-10 h-7 bg-green-300 rounded-lg ml-2 hover:scale-110 hover:rotate-12'/></Link>
+          <ul className=" flex gap-3 ">
+            <li><Link className=' drop-shadow-lg' href={'/about'}>About</Link></li>
+            <li><Link className=' drop-shadow-lg mr-5' href={'/contact'}>Contact</Link></li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
