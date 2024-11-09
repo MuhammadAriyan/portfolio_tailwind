@@ -10,10 +10,10 @@ const page = () => {
       <div className=' drop-shadow-lg leading-snug m-5 font-semibold h-full w-11/12 flex items-center text-3xl md:text-5xl lg:text-6xl xl:text-7xl sm:text-4xl  tracking-wide'><h3>GET ALL OF MY SOCIAL LINKS</h3></div>
         <div className=' border-l-4 border-black'>
       <ul className=' text-lg text-black p-1 h-full flex flex-col justify-center  gap-10 rounded-md bg-white'>
-        <li className=''><Link href={'https://github.com/MuhammadAriyan/'} target='_blank' className=' m-1 flex stroke-current hover:scale-110'><GithubIcon className='ml-3'/></Link></li>
-        <li className=''><Link href={'https://www.youtube.com/@Aryannn_%C3%B1._.6'} target='_blank' className=' m-1 flex stroke-current hover:scale-110'><YoutubeIcon className='ml-3'/></Link></li>
-        <li className=''><Link href={'https://www.linkedin.com/in/muhammad-aryan'} target='_blank' className=' m-1 flex stroke-current hover:scale-110'><LinkedinIcon className='ml-3'/></Link></li>
-        <li className=''><Link href={'https://www.instagram.com/maryanrar/'} target='_blank' className=' m-1 flex stroke-current hover:scale-110'><Instagram className='ml-3'/></Link></li>
+        <li className=''><Link href={'https://github.com/MuhammadAriyan/'} target='_blank' className=' flex stroke-current hover:scale-110'><GithubIcon className='ml-3'/></Link></li>
+        <li className=''><Link href={'https://www.youtube.com/@Aryannn_%C3%B1._.6'} target='_blank' className=' flex stroke-current hover:scale-110'><YoutubeIcon className='ml-3'/></Link></li>
+        <li className=''><Link href={'https://www.linkedin.com/in/muhammad-aryan'} target='_blank' className=' flex stroke-current hover:scale-110'><LinkedinIcon className='ml-3'/></Link></li>
+        <li className=''><Link href={'https://www.instagram.com/maryanrar/'} target='_blank' className=' flex stroke-current hover:scale-110'><Instagram className='ml-3'/></Link></li>
       </ul>
       </div>
       </div>

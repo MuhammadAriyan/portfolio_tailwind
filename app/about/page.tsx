@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className=' h-[110vh] bg-black'>
-      <h1 className=' text-white font-sans font-bold text-xl md:text-5xl lg:text-6xl xl:text-7xl m-3 sm:text-3xl tracking-wide drop-shadow-xl mb-5'>ABOUT ME</h1>
+      <h1 className=' text-white font-sans  p-5 font-bold text-xl md:text-5xl lg:text-6xl xl:text-7xl  sm:text-3xl tracking-wide drop-shadow-xl mb-5'>ABOUT ME</h1>
       <div className="  m-2 text-white tracking-wide">
         <p className=' rounded-md hover:shadow-white/10 bg-white/10 hover:shadow-md p-2 m-2 drop-shadow-lg text-base font-bold font-mono sm:text-lg lg:text-xl'>Hey there! I’m
           <span className=' text-green-500 '> Muhammmad Aryan</span>
